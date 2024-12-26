@@ -779,7 +779,7 @@ text-align: center;
 }
 
 .footer-wrapper-text{
- 
+ text-align: center;
     margin-bottom: 16px;
     font-weight: 500;
 font-size: 16px;
@@ -789,10 +789,11 @@ color: #fff;
 }    
 .footer-form{
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 .footer-form-input{
-    width: 264px;
+    width: 288px;
     height: 40px;
    border:  1px solid #ffffff;
    background-color: transparent;
@@ -847,6 +848,9 @@ color: #fff;
 
 
 @media screen and (min-width: 768px){
+
+    .footer-form-input{
+        width: 264px;}
    
     .footer-cont{
         display: flex;
@@ -861,6 +865,9 @@ color: #fff;
     .footer-text-social{
     text-align: start;
     }
+
+    .footer-wrapper-text{
+      text-align: start;}
 }
 
 @media screen and (min-width: 1158px){
